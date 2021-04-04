@@ -1,0 +1,24 @@
+{
+  "name": "section-17-socket-io",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "socket",
+    "io"
+  ],
+  "author": "gopinath",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
