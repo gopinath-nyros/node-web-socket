@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/img/favicon.png" />
-    <link rel="stylesheet" href="/css/styles.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+
     <title>Socket IO project</title>
   </head>
   <body>
@@ -20,11 +21,23 @@
             placeholder="Display name"
             required
           />
-          <label>Room</label>
-          <input type="text" name="room" placeholder="room" required />
+          <!-- <label>Room</label> -->
+          <!-- <input type="text" name="room" placeholder="room" required /> -->
+          <div class="custom-select" style="width: 200px;">
+            <label for="room">Room</label>
+            <select name="room" id="room">
+              <option value="JavaScript">JavaScript</option>
+              <option value="Python">Python</option>
+              <option value="PHP">PHP</option>
+              <option value="C#">C#</option>
+              <option value="Ruby">Ruby</option>
+              <option value="Java">Java</option>
+            </select>
+          </div>
           <button>Join</button>
         </form>
       </div>
     </div>
   </body>
+  <script src="/js/script.js"></script>
 </html>
